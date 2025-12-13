@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --font-Manrope:"Manrope", sans-serif;
+    --font-primary:"Inter", sans-serif;
+    --font-secondary:"BBH Bogle", sans-serif;
+}
+:root {
+    --app-bg: #1A1A47;
+}
+
+html,
+body {
+    background-color: var(--app-bg);
+}
