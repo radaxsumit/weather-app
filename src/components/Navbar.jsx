@@ -10,7 +10,7 @@ import {FiSearch, FiBell, FiSettings, FiUser} from "react-icons/fi";
 export const Navbar = () => {
     return (
         <nav
-            className="w-full h-18 px-12  flex items-center justify-between bg-[#121529] border-b border-white/5">
+            className="w-full h-18 px-12 sticky z-50 top-0 flex items-center justify-between bg-[#121529] border-b border-white/5">
 
             {/* Left: Logo / App name */}
             <div className="flex items-center gap-3">
