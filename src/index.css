@@ -5,9 +5,10 @@
     --font-Manrope:"Manrope", sans-serif;
     --font-primary:"Inter", sans-serif;
     --font-secondary:"BBH Bogle", sans-serif;
+    --font-tertiary:"BBH Bartle", sans-serif;
 }
 :root {
-    --app-bg: #1A1A47;
+    --app-bg: #f5f8ff;
 }
 
 html,
